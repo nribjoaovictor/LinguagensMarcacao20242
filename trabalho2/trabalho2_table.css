@@ -1,0 +1,76 @@
+body{
+    text-align: justify;
+    margin: auto;
+    background-color: rgb(68, 78, 73);
+}
+.conteiner{
+    text-align: center;
+    width:90% ;
+    height: auto;
+    margin:auto;
+    border-style: groove;
+    border-radius: 1%;
+    background-color: antiquewhite;
+    /* width serve para alinhar horizontalmente de acordo com o referencial, por exemplo, se estiver em relação ao body, vai ajustar de acordo com o espaçamento do body
+    margin ajusta o elemento de acordo com sua "caixa"*/;
+}
+
+#titulo{
+    text-align: center;
+    padding: 30px;
+    height: 80px;
+    margin: auto;
+    color:antiquewhite
+}
+#titulo:hover{
+    transform: rotateX(180deg);
+    transition-duration: 1s;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float:left;
+}
+
+li a{
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*text decoration é uma propriedade abreviada para alguns tipos de decorações no texto, como sua cor, sublinhar o texto, estilizar a linha que sublinhou, etc*/
+}
+li a:hover{
+    background-color: #111;
+}
+table,th,td .conteiner{
+    text-align: center;
+    margin: auto;
+    font-size: larger ;
+}
+td,th {
+    padding: 15px;
+}
+.hover:hover{
+    background-color: coral;
+}
+.imagem{
+    margin:auto;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.rodape{
+    width: 100%;
+    margin: auto;
+    color: antiquewhite;
+    font-size: medium;
+    text-align: center;
+    border-style:hidden;
+    padding: 20px;
+}

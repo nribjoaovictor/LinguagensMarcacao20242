@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastrar Usuários</h1>
+    <div>
+        <form action="formulario.html" method="post"></form>
+        <fieldset>
+        <legend>1 dados pessoais</legend>
+        <label for="name"> name:</label>
+        <input type="text" id="name" name="email"
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email"
+        <label for="senha"> senha: </label>
+        <input type="password" id="senha" name="senha"
+        <label for="confirma_senha:"> Confirma senha: </label>
+        <input type="password" id="confirma_senha" name="confirma_senha"
+        <label for="id"> Idade: </label>
+        <input type="radio" id="idade" name="idade" value="Acima 17"
+        <label for="idade"> Acima 17</label><br>
+        <input type="radio" id="idade_abaixo" name="idade_abaixo" value="Abaixo ou igual 17"
+        <label for="idade_abaixo">Abaixo ou igual 17</label>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+        <legend>2 perfil</legend>
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao" name="descricao"></textarea>
+        <label for="perfil">Perfil Trabalho</label>   
+        <select name="perfil" id="perfil">
+            <option value="frontend">Front-End Developer</option>
+            <option value="backend">Back-End Developer</option>
+        </select>
+        <label for="interesses">Interesse: </label>
+        <input type="checkbox" id="programador" name="programador"
+        <label for="programador">programador</label><br>
+        <input type="checkbox" id="design" name="design"
+        <label for="design">Design</label><br>
+        <input type="checkbox" id="analista" name="analista"
+        <label for="analista">Analista</label>
+        </fieldset>
+    </div>
+    <input type="submit" value="Enviar Dados"
+    
+
+    </form>
+</body>
+</html>
