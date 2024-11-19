@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercicio6.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Cadastrar Usuários</h1>
+        <div>
+            <form action="exercicio6.html" method="post"></form>
+            <fieldset>
+                    <h2>Dados Pessoais</h2>
+                    <div>
+                        <label class="display" for="name"> name:</label>
+                        <input class="display" type="text" id="name" name="email">
+                    </div>
+                    <div>
+                        <label class="display" for="email"> Email:</label>
+                        <input class="display" type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label class="display" for="senha"> senha: </label>
+                        <input class="display" type="password" id="senha" name="senha">
+                    </div>
+                    <div>
+                        <label class="display" for="confirma_senha:"> Confirma senha: </label>
+                        <input class="display" type="password" id="confirma_senha" name="confirma_senha">
+                    </div>
+                    <div>
+                        <label class="display" for="id"> Idade: </label>   
+                    </div>
+                    
+                    <div class="display">
+                        <input type="radio" id="idade" name="idade" value="Acima 17">
+                        <label for="idade"> Acima 17</label>
+                    </div>
+                    <div class="display">
+                        <input type="radio" id="idade_abaixo" name="idade_abaixo" value="Abaixo ou igual 17">
+                        <label for="idade_abaixo">Abaixo ou igual 17</label>
+                    </div>
+                </form>
+                    <h2>Perfil</h2>
+                    <div>
+                        <label class="display" for="descricao">Descrição</label>
+                        <textarea class="display" id="descricao" name="descricao"></textarea>
+                    </div>
+                    <div>
+                            <label class="display" for="perfil">Perfil Trabalho</label>   
+                        <select class="display" name="perfil" id="perfil">
+                            <option value="frontend">Front-End Developer</option>
+                            <option value="backend">Back-End Developer</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="display" for="interesses">interesse: </label>
+                    </div>                
+                    <div class="display">
+                        <input type="checkbox" id="programador" name="programador">
+                        <label for="programador">Programador</label>
+                    </div>
+                    <div class="display">
+                        <input type="checkbox" id="design" name="design">
+                        <label for="design">Design</label>
+                    </div>
+                    <div class="display">
+                        <input type="checkbox" id="analista" name="analista">
+                        <label for="analista">Analista</label>
+                    </div>
+            </fieldset>
+        </div>
+        <div>
+            <input id="submit" type="submit" value="Enviar Dados">
+        </div>
+    </div>
+
+    
+</body>
+</html>
