@@ -1,0 +1,52 @@
+body{
+    margin:auto;
+    height: 130%;
+    padding: 15px;
+}
+.conteiner{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    /* O que faz a propriedade z-index?
+    R: O z-index faz com que seja determinado a ondem do elemento que vai sobressair em relação ao outro. No caso da questão
+    o 999 do z-index faz com que a div centro fique acima da div conteiner que é 1. quanto maior a diferença, mais irá sobressair
+    O z-index fez com que a imagem ficasse em "segundo plano em relação a .centro, que é a frase.*/
+   
+}
+
+.conteiner img{
+    width: 80%;
+    height: 100%;
+    opacity: 0.5;
+    border: 2px solid green;
+    margin: auto;
+}
+.centro{
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    color: black;
+    /* O que faz a propriedade z-index?
+    R: O z-index faz com que seja determinado a ondem do elemento que vai sobressair em relação ao outro. No caso da questão
+    o 999 do z-index faz com que a div centro fique acima da div conteiner que é 1. quanto maior a diferença, mais irá sobressair*/
+}
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#icon{
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
